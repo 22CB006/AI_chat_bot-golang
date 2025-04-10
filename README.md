@@ -28,10 +28,6 @@ This is a simple AI-powered chatbot built with **Go**, integrated with Slack, Wi
 
 . ├── main.go # Entry point ├── go.mod # Go module definitions ├── go.sum # Dependency checksums ├── .env # Environment variables (ignored in git) ├── .gitignore # Git ignore rules
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🔐 Environment Variables
@@ -48,23 +44,15 @@ WOLFRAM_APP_ID="your-wolfram-app-id"
 📦 Installation & Running
 Clone this repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/22CB006/AI_chat_bot-golang.git
 cd AI_chat_bot-golang
+
 Download dependencies:
-
-bash
-Copy
-Edit
 go mod tidy
-Run the bot:
 
-bash
-Copy
-Edit
+Run the bot:
 go run main.go
+
 🌱 Future Enhancements
 Context-aware responses
 
